@@ -8,5 +8,5 @@ public interface InterfaceOneWayList {
     void insert(int value, int index);
     int get(int index);
     int removeLast();
-    int remove();
+    int remove(int  index);
 }
